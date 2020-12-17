@@ -1,0 +1,33 @@
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation: loading 1.2s infinite;
+}
+
+@keyframes loading {
+    0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+      transform: scale(6);
+      opacity: 0.5;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+body {
+  background-color: #4072B3;
+}
+
+.container {
+display: flex;
+height: 100vh;
+justify-content: space-around;
+align-items: center;
+}
